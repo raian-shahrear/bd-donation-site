@@ -6,7 +6,7 @@ Common CSS
   margin: 0;
   padding: 0;
 }
-h1, h2, h4, h5{
+h1, h2, h4{
   text-transform: capitalize;
   font-family: 'Inter', sans-serif;
 }
@@ -194,6 +194,24 @@ Planning Section
 /*-----END-----*/
 
 
-/*==============
-Especial Section
-==============*/
+/*============
+Footer Section
+============*/
+footer{
+  background-color: #0B0D17;
+  padding: 40px 0;
+  text-align: center;
+}
+footer h3{
+  font-size: 36px;
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: capitalize;
+  color: #fff;
+}
+.text-color{
+  color: #2980b9;
+}
+footer p{
+  color: #fff;
+  font-size: 14px;
+}
