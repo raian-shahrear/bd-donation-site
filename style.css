@@ -44,12 +44,12 @@ Header Section
 #header-cover{
   background-image: url("./media/images/background.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   position: relative;
 }
 .header-overly{
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, .7);
   padding: 400px 0;
 }
 .header-items{
@@ -85,7 +85,7 @@ Header Section
 /*==================
 Amount Range Section
 ==================*/
-.container-1{
+.container-width-65{
   width: 65%;
   margin: 100px auto 130px;
 }
@@ -162,7 +162,7 @@ Amount Range Section
 /*==============
 Planning Section
 ==============*/
-.container-2{
+.container-width-80{
   width: 80%;
   margin: 0 auto;
 }
@@ -197,13 +197,31 @@ Planning Section
 /*==============
 Especial Section
 ===============*/
-
-
-
-
-
-
-
+.especial-background{
+  margin: 30px 0;
+  background-color: #c8d6e5;
+  padding: px;
+}
+.especial-item-left{
+  margin-right: 100px;
+  width: 70%;
+}
+.especial-image{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: skewY(5deg);
+  box-shadow: 0 0 20px rgb(99, 99, 99);
+}
+.especial-item-right{
+  width: 25%;
+}
+.especial-details h2{
+  margin: 20px 0 50px;
+}
+.especial-artical p:nth-child(2){
+  margin: 20px 0 50px;
+}
 /*-----END-----*/
 
 
@@ -249,6 +267,7 @@ Subscribe Section
   background: transparent;
   border-color: #fff;
   transition: .3s;
+  cursor: pointer;
 }
 /*-----END-----*/
 
@@ -270,8 +289,14 @@ footer h3{
 .text-color{
   color: #2980b9;
 }
-footer p{
+footer p:nth-child(2){
   color: #fff;
   font-size: 14px;
+}
+footer p:nth-child(3){
+  margin-top: 50px;
+}
+footer p:nth-child(3) a strong{
+  color: #fff;
 }
 /*-----END-----*/
