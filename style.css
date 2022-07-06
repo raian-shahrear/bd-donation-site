@@ -122,6 +122,7 @@ Amount Range Section
   background-color: #d6edfd;
   border-color: #2980b9;
   cursor: pointer;
+  transition: .3s;
 }
 .other-amount-area{
   width: 65%;
@@ -135,7 +136,11 @@ Amount Range Section
   border: 2px solid transparent;
   border-bottom-color: #DADADA;
 }
-
+.submit-link{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
 .submit-link input[type=submit]{
   background: linear-gradient(45deg, #16a085, #2980b9);
   color: #fff;
@@ -145,11 +150,6 @@ Amount Range Section
   font-family: 'Inter', sans-serif;
   text-transform: capitalize;
   border-radius: 10px;
-}
-.submit-link{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
 }
 .submit-link input[type=submit]:hover{
   background: linear-gradient(45deg, #2980b9, #16a085);
@@ -216,11 +216,27 @@ Especial Section
 .especial-item-right{
   width: 25%;
 }
-.especial-details h2{
+.especial-title h2{
   margin: 20px 0 50px;
 }
 .especial-artical p:nth-child(2){
   margin: 20px 0 50px;
+}
+.how-to-button a{
+  background: transparent;
+  color: #2980b9;
+  border: 2px solid #2980b9;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.how-to-button a:hover{
+  background: linear-gradient(45deg, #16a085, #2980b9);
+  color: #fff;
+  border-color: transparent;
+  transition: .3s;
 }
 /*-----END-----*/
 
